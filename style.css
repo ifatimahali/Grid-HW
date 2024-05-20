@@ -291,8 +291,8 @@
         font-size: 22px;
         line-height: 32px;
         font-weight: 400;
-        color: #fff;
         text-align: center;
+        color: #fff;
 
     }
     h5{
@@ -324,6 +324,7 @@
         font-size: 22px;
         line-height: 32px;
         font-weight: 400;
+        color:#F7F7F8;
     }
     .x{
         display: grid;
@@ -638,6 +639,7 @@
         font-size: 22px;
         line-height: 32px;
         font-weight: 400;
+        color:#F7F7F8;
     }
     .x{
         display: grid;
