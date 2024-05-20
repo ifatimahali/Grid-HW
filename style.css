@@ -1,0 +1,648 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .section1{
+        display: flex;
+        padding-right: 4%;
+        padding-left: 4%;
+        align-items: center;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 26px;
+        display: grid;
+        margin-top: 80px;
+        grid-column:1/4;
+    }
+    .section2{
+        display: grid;
+        grid-column:2/4;
+    }
+    .section3{
+        display: grid;
+        grid-column: 1/4;
+        background-color: #F7F7F8;
+    }
+    .section4{
+    background-color: #f05638;
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-column: 1/4;
+    }
+    .section5{
+        padding-left:8px;
+        display: grid;
+        grid-column: 1/5;
+
+    }
+    .section6{
+        display: grid;
+        grid-column: 1/6;
+    }
+    .section7{
+        width: 100%;
+    background-color: #8f76bc;
+    display: grid;
+    grid-column:1/7;
+    }
+    .section8{
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-column: 1/8;
+    }
+    .section9{
+        display: grid;
+        grid-column:1/9 ;
+        background-color: #93b6b7;
+    }
+    .section10{
+    background-color: #8f76bc;
+    text-align: center;
+    grid-column:7/-19;
+    }
+    .section11{
+        background-color: #35cfed;
+        display: grid;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        grid-column: 1/11;
+    }
+    .section12{
+        display: grid;
+        grid-column: 1/12;
+    }
+    .section13{
+        width: 100%;
+        height: 25vh;
+        background-color: #2c2c2c;
+        grid-column: 14/-2;
+    }
+    .section14{
+        width: 100%;
+        height: 25vh;
+        background-color: #2c2c2c;
+        display: grid;
+        grid-column: 1/14;
+    }
+    .iphone, .learn-m{
+        font-family: "Montserrat", sans-serif;
+        color: #9fa3a7;
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    .HOW-USE{
+        font-family: "Arvo", sans-serif;
+        font-size: 4rem;
+        line-height: 60px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .Touch{
+        font-family: "Arvo", sans-serif;
+    }
+    .download{
+        color:#27b9c2;
+        text-align: center;
+    }
+    .LM{
+        font-family: "Montserrat", sans-serif;
+        color: #9fa3a7;
+        font-size: 12px;
+        margin-top: 50px;
+        line-height: 20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .keyb{
+        font-size: 22px;
+        line-height: 32px;
+        color: #fffbfb;
+        text-align: center;
+        display: grid;
+        align-self: center;
+        justify-self: center;
+    }
+    .LEARN{
+       COLOR: #ffc80a;
+       display: inline-block;
+       margin-top: 20px;
+       font-size: 12px;
+       font-weight: 700;
+       letter-spacing: 2.4px;
+       text-decoration: none;
+       text-transform: uppercase;
+    }
+    h6{
+        font-family: "Montserrat", sans-serif;
+        color: #9fa3a7;
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    .best{
+        font-family: "Arvo", sans-serif;
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 400;
+        color: #fff;
+        text-align: center;
+    }
+    .b-c{
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: #fa684f;
+        font-size: 8px;
+        line-height: 20px;
+        font-weight: 700;
+        letter-spacing: 2px;   
+        color:white 
+    }
+    .iCloud{
+        font-family: "Arvo", sans-serif;
+        font-size: 2rem;
+        font-size: 30px;
+        font-weight: bold;
+        color: #fff;
+    }
+    .button {
+        margin-top: 30px;
+        padding: 14px 28px;
+        border-radius: 50px;
+        background-color: #ffc80a;
+        color: #000;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 2.4px;
+        text-transform: uppercase;
+    }
+    .iclu{
+        margin-top: 2px;
+        margin-bottom: 30px;
+        text-align: center;
+        align-items: center;
+    }
+    h3{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-family: "Arvo", sans-serif;
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 400;
+    }
+    .Mac{
+    
+        display: inline-block;
+        display: flex;
+        justify-content: start;
+        height: 38vh;
+    }
+    .grey-text{
+        color:#9fa3a7;
+        font-family:  "Montserrat", sans-serif;
+        line-height: 26px;
+        display: flex;
+        font-size: 1rem;
+    }
+    .arrow-link {
+        display: inline-block;
+        margin-top: 20px;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 2.4px;
+        text-transform: uppercase;
+    }
+    .POPULAR{
+        padding: 2px 13px 1px 30px;
+        border-radius: 60px;
+        background-color: hsla(0, 0%, 100%, .08);
+        background-image: url(Shape.png);
+        background-position: 10px 50%;
+        background-size: 12px;
+        background-repeat: no-repeat;
+        font-size: 10px;
+    }
+    .meet{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        color: #fff;
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .circle{
+        display: flex;
+        width: 373px;
+        height: 373px;
+        align-items: center;
+        border-radius: 50%;
+        background-color: #8166b0;
+    }
+    .down{
+        color: #27b9c2;
+    }
+    .game{
+        display: grid;
+        align-self: center;
+        justify-self: center;
+    }
+    .a-game{
+        COLOR: #27b9c2;
+        display: inline-block;
+        margin-top: 20px;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 2.4px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    strong{
+        font-weight: bold;
+    }
+    
+    .more{
+        display: block;
+        margin-top:100px;
+        margin-bottom: 20px;
+        font-family: "Arvo", sans-serif;
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 400;
+        color: #fff;
+        text-align: center;
+
+    }
+    h5{
+        width: 80px;
+        height: 30px;
+        background-color: #7bc424;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 8px;
+        display: grid;
+        margin-top: 20px;
+        margin-left: 150px;
+        align-items: center;
+        text-align: center;
+        align-self: center;
+    }
+    .much{
+       
+        font-family: "Arvo", sans-serif;
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .twitter{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-family: "Arvo", sans-serif;
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 400;
+    }
+    .x{
+        display: grid;
+        align-items: center;
+        align-self: center;
+        margin-left:40px;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .section1{
+        display: flex;
+        padding-right: 4%;
+        padding-left: 4%;
+        align-items: center;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 26px;
+        display: grid;
+        display: block;
+        margin-top: 80px;
+    }
+    .iphone, .learn-m{
+        font-family: "Montserrat", sans-serif;
+        color: #9fa3a7;
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    .HOW-USE{
+        font-family: "Arvo", sans-serif;
+        font-size: 4rem;
+        line-height: 60px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .Touch{
+        font-family: "Arvo", sans-serif;
+    }
+    .download{
+        color:#27b9c2;
+        text-align: center;
+    }
+    .LM{
+        font-family: "Montserrat", sans-serif;
+        color: #9fa3a7;
+        font-size: 12px;
+        margin-top: 50px;
+        line-height: 20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .keyb{
+        font-size: 22px;
+        line-height: 32px;
+        color: #fffbfb;
+        text-align: center;
+        display: grid;
+        align-self: center;
+        justify-self: center;
+    }
+    .LEARN{
+       COLOR: #ffc80a;
+       display: inline-block;
+       margin-top: 20px;
+       font-size: 12px;
+       font-weight: 700;
+       letter-spacing: 2.4px;
+       text-decoration: none;
+       text-transform: uppercase;
+    }
+    h6{
+        font-family: "Montserrat", sans-serif;
+        color: #9fa3a7;
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    .best{
+        font-family: "Arvo", sans-serif;
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 400;
+        color: #fff;
+        text-align: center;
+    }
+    .b-c{
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: #fa684f;
+        font-size: 8px;
+        line-height: 20px;
+        font-weight: 700;
+        letter-spacing: 2px;   
+        color:white 
+    }
+    .iCloud{
+        font-family: "Arvo", sans-serif;
+        font-size: 2rem;
+        font-size: 32px;
+        margin-top: 20px;
+        font-weight: bold;
+        color: #fff;
+    }
+    .button {
+        margin-top: 30px;
+        padding: 14px 28px;
+        border-radius: 50px;
+        background-color: #ffc80a;
+        color: #000;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 2.4px;
+        text-transform: uppercase;
+    }
+    .iclu{
+        margin-top: 2px;
+        margin-bottom: 30px;
+        text-align: center;
+        align-items: center;
+    }
+    h3{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-family: "Arvo", sans-serif;
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 400;
+    }
+    .Mac{
+    
+        display: inline-block;
+        display: flex;
+        justify-content: start;
+        height: 38vh;
+    }
+    .grey-text{
+        color:#9fa3a7;
+        font-family:  "Montserrat", sans-serif;
+        line-height: 26px;
+        display: flex;
+        font-size: 1rem;
+    }
+    .arrow-link {
+        display: inline-block;
+        margin-top: 20px;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 2.4px;
+        text-transform: uppercase;
+    }
+    .POPULAR{
+        padding: 2px 13px 1px 30px;
+        border-radius: 60px;
+        background-color: hsla(0, 0%, 100%, .08);
+        background-image: url(Shape.png);
+        background-position: 10px 50%;
+        background-size: 12px;
+        background-repeat: no-repeat;
+        font-size: 10px;
+    }
+    .meet{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        color: #fff;
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .circle{
+        display: flex;
+        width: 373px;
+        height: 373px;
+        align-items: center;
+        border-radius: 50%;
+        background-color: #8166b0;
+    }
+    .down{
+        color: #27b9c2;
+    }
+    .game{
+        display: grid;
+        align-self: center;
+        justify-self: center;
+    }
+    .a-game{
+        COLOR: #27b9c2;
+        display: inline-block;
+        margin-top: 20px;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 2.4px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    strong{
+        font-weight: bold;
+    }
+    .section3{
+        display: grid;
+        grid-column: 3/-1;
+        background-color: #F7F7F8;
+    }
+    .section4{
+    background-color: #f05638;
+        display: grid;
+        align-items: center;
+        text-align: center;
+    }
+    .section5{
+        padding-left:8px;
+    }
+    
+    .section7{
+    background-color: #8f76bc;;
+    }
+    .section8{
+        display: grid;
+        align-items: center;
+        text-align: center;
+    }
+    .section9{
+        display: grid;
+        grid-column:2/4 ;
+        background-color: #93b6b7;;
+    }
+    .section10{
+    background-color: #8f76bc;
+    text-align: center;
+    }
+    .section11{
+        background-color: #35cfed;
+        display: grid;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    
+    }
+    .section12{
+    
+        display: grid;
+    }
+    .section13{
+        width: 25vw;
+        height: 25vh;
+        background-color: #2c2c2c;
+    }
+    .section14{
+        width: 100%;
+        height: 25vh;
+        background-color: #2c2c2c;
+        display: grid;
+        grid-column: -3\-1;
+    }
+    .more{
+        display: block;
+        margin-top:100px;
+        margin-bottom: 20px;
+        font-family: "Arvo", sans-serif;
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 400;
+    }
+    h5{
+        width: 80px;
+        height: 30px;
+        background-color: #7bc424;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 8px;
+        display: grid;
+        margin-top: 20px;
+        margin-left: 150px;
+        align-items: center;
+        text-align: center;
+        align-self: center;
+    }
+    .much{
+       
+        font-family: "Arvo", sans-serif;
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .twitter{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-family: "Arvo", sans-serif;
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 400;
+    }
+    .x{
+        display: grid;
+        align-items: center;
+        align-self: center;
+        margin-left:40px;
+    }
+}
